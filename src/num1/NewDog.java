@@ -7,7 +7,7 @@ public class NewDog {
             dog.voice();
         }
 
-        public static void feedDog(String food) {
+        public static void feedDog(Food food) {
             Dog dog = Dog.createDog();
             dog.eat(food);
         }

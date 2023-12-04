@@ -7,9 +7,9 @@ public class Rabbit extends Animal{
     }
 
     @Override
-    public void eat(String food) {
+    public void eat(Food food) {
 
-        if(food.equals("Grass")){
+        if(food==Food.GRASS){
             System.out.println("Кролик любит есть травку");
         } else {
             System.out.println("Кролик недоволен");

@@ -10,8 +10,8 @@ public class Dog extends Animal{
     }
 
     @Override
-    public void eat(String food) {
-        if(food.equals("Meat")){
+    public void eat(Food food) {
+        if(food==Food.MEAT){
             System.out.println("Собака любит есть мясо");
         } else {
             System.out.println("Собака недовольна");
